@@ -8,7 +8,7 @@ body {
 
 header {
     width: 100%;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-flow: column wrap;
     background: rgba(255,255,255,255);
@@ -16,7 +16,7 @@ header {
 
 .banner {
     width: 85%;
-    height: 250px;
+    height: 200px;
     position:absolute;
     margin-top: 60px;
     margin-left: 100px;
@@ -27,7 +27,7 @@ header {
 
 .banner div{
     width: 90%;
-    height: 250px;
+    height: 200px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -40,7 +40,7 @@ header {
     margin-left: 100px;
     letter-spacing: 1.5px;
     word-spacing: 1.5px;
-    font-size: 38px;
+    font-size: 34px;
     color: rgba(255,255,255,255);
 }
 
@@ -59,7 +59,7 @@ header {
 
 main {
     display: flex;
-    height: 700px;
+    height: 600px;
     justify-content: center;
     align-items: center;
     margin: auto auto;
@@ -121,6 +121,6 @@ main {
 }
 
 footer {
-    height: 50px;
+    height: 0;
     background: rgba(240,249,255,255);
 }
