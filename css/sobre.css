@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    background: rgba(255,255,255,255);
+}
+
+.banner {
+    width: 85%;
+    height: 250px;
+    position:absolute;
+    margin-top: 60px;
+    margin-left: 100px;
+    display: block;
+    border-radius: 10px;
+    background: rgba(25,113,194,255);
+}
+
+.banner div{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(25,113,194,255);
+}
+
+.banner h2 {
+    margin-left: 100px;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    font-size: 38px;
+    color: rgba(255,255,255,255);
+}
+
+.banner a {
+    margin-right: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    background: rgba(255,255,255,255);
+    color: rgba(25,113,194,255);;
+}
+
+main {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    flex-flow: row wrap;
+    background: rgba(240,249,255,255);
+}
+
+.imagem {
+    height: 300px;
+    flex: 40%;
+}
+
+.imagem img {
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 350px;
+    height: 250px;
+}
+
+.texto {
+    margin-right: 80px;
+    height: 300px;
+    flex: 50%;
+}
+
+.texto h3 {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: rgba(25,113,194,255);
+}
+
+.texto h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+}
+
+.texto p {
+    border-bottom: 90px;
+}
+
+.texto a {
+    color: rgba(249,249,249,255);
+    background: rgba(25,113,194,255);
+    border: 2px solid rgba(25,113,194,255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 0;
+}
+
+footer {
+    height: 50px;
+    background: rgba(240,249,255,255);
+}
