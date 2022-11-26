@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: rgba(255,255,255,255);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 350px;
+}
+
+.texto {
+    flex: 38%;
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.texto h2 {
+    font-size: 30px;
+}
+
+#contato {
+    border-radius: 30px;
+    color: rgba(255,255,255,255);
+    background: rgba(25,113,194,255);
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#rua img {
+    width: 20px;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+#email img {
+    width: 20px;
+}
+
+.imagem {
+    flex: 45%;
+    width: 350px;
+    height: 250px;
+    margin-right: 70px;
+}
+
+.imagem img {
+    width: 450px;
+    height: 250px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+    background: rgba(25,113,194,255);
+    }
+
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 80px;
+}
+
+.log img {
+    margin-left: 80px;
+    height: 50px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-right: 100px;
+}
+
+#insta {
+    height: 50px;
+    margin-right: 0;
+}
+
+#face {
+    height: 50px;
+    margin-right: 0;
+}
+
+#youtube {
+    height: 60px;
+}
