@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    width: 60%;
+    height: 200px;
+    margin: auto auto;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    width: 60%;
+    height: 200px;
+    text-align: center;
+}
+
+.cabecalho h2 {
+    font-size: 14px;
+    color: rgba(25,113,194,255);
+    margin-bottom: 0;
+}
+
+.cabecalho p {
+    margin-top: 7px;
+    font-size: 36px;
+    font-weight: bold;
+}
+main {
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.depoimentos {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto auto;
+    justify-content: space-between;
+    width: 90%;
+    height: 270px;
+    display: flex;
+}
+
+.depoimentos div {
+    width: 45%;
+    height: 80%;
+    background: rgba(240,249,255,255);
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.depoimentos p {
+    margin-left: 20px;
+}
+
+#id-depoimento {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    box-shadow: none;
+    width: 100%;
+    height: 75px;
+}
+
+#foto {
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: none;
+    width: 80px;
+    height: 50px;
+}
+
+#foto img {
+    margin-top: 0;
+    height: 60px;
+    box-shadow: none;
+    border: none;
+}
+
+#nome {
+    margin-top: 5px;
+    box-shadow: none;
+    justify-content:end;
+    align-items: center;
+    width: 240px;
+    height: 65px;
+}
+
+#nome h3 {
+    margin-left: 0;
+    color: rgba(25,113,194,255);
+}
+
+.empresasConfiam {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.emp {
+    display: flex;
+    flex-flow: row wrap;
+    background: #f9f9f9;
+    box-shadow: none;
+}
+
+.emp div {
+    background: rgba(255,255,255,255);
+    box-shadow: none;
+    margin-left: 40px;
+    width: 200px;
+}
+
+footer {
+    width: 90%;
+    margin: auto auto;
+    height: 50px;
+}
